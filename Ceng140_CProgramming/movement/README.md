@@ -3,7 +3,7 @@
 * A robot is placed in a NxN grid. An example of 4x4 grid with axis indexes is given as following.
 
 
-     0  1  2  3
+ x\y 0  1  2  3
      
   0  _  _  _  _
   
@@ -18,7 +18,7 @@
 
 * A position in the grid is relative to its upper left corner, that is, x value increases in East direction and y value increases in South direction. The position of the robot will be given as x and y coordinates. For example, if the robot is placed in x = 3, y = 2 in a 4x4 grid, its position can be shown as following.
 
-     0  1  2  3
+ x\y 0  1  2  3
      
   0  _  _  _  _
   

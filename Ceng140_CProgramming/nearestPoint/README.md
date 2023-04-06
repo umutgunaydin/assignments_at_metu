@@ -19,9 +19,9 @@ square root of ((qx - px)^2 + (qy - py)^2), where px and py are x and y coordina
 * If two coordinates' distances are equal, use the one with the lower index.
 
 ### Sample Input:
-  3 4 2 1 0 9 0 1 5 6 \n
-  3 3 1 6 2 9 8 9 3 7 \n
-  9
+  3 4 2 1 0 9 0 1 5 6 <br>
+  3 3 1 6 2 9 8 9 3 7 <br>
+  9 <br>
   8
 
 ### Sample Output:

@@ -44,7 +44,7 @@ Result: 15.00<br>
 2- Count the number of vowels in the string whose ASCII value is divisible by 3. <br>
 3- Print the count of such vowels.<br>
 
-<h6>Example input/output:</h6>
+### Example input/output:<br>
 Input:<br>
 10 openaliscool<br>
 Output (oioo chars are divisible by 3):<br>

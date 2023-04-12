@@ -5,15 +5,15 @@
 * You are going to print a text using these variables in the desired formats.
 
 ### Variables:
-1 course_code (int)
-2 lab_exam_count (int)
-3 point1 (int)
-4 point2 (int)
+1 course_code (int)<br>
+2 lab_exam_count (int)<br>
+3 point1 (int)<br>
+4 point2 (int)<br>
 
 ### Desired output:
-I got <point1> from the first and <point2> from the second lab exam of CENG<course_code>.
-There will be <lab_exam_count> lab exams in total.
-If I get two zero grades in the forthcoming lab exams, I'm going to get NA.
+I got <point1> from the first and <point2> from the second lab exam of CENG<course_code>.<br>
+There will be <lab_exam_count> lab exams in total.<br>
+If I get two zero grades in the forthcoming lab exams, I'm going to get NA.<br>
 
 ## Task 1 - Calculator (40 pts)
 * In this task, you will develop a simple calculator program that can perform basic arithmetic operations.
@@ -44,7 +44,7 @@ Result: 15.00<br>
 2- Count the number of vowels in the string whose ASCII value is divisible by 3. <br>
 3- Print the count of such vowels.<br>
 
-### Example input/output:
+<h6>Example input/output:</h6>
 Input:<br>
 10 openaliscool<br>
 Output (oioo chars are divisible by 3):<br>

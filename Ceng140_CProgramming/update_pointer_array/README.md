@@ -1,5 +1,6 @@
-# Update Links on Pointer Array
-Given an integer array and a pointer array. You will have the pointer array such that points each value correspondingly. 
+# Update Links on Pointer Array
+
+* Given an integer array and a pointer array. You will have the pointer array such that points each value correspondingly. 
 
 Suppose we initialised integer array and pointer array using this code part:
 ```

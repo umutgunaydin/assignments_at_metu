@@ -146,25 +146,27 @@ ObjA = [1, 1, 2, 2, 3, 3], ObjB = [1, 2, 2, 2, 2, 3]</br>
 width = 5, height = 5</br>
 commandCount = 3, TranslateCommands = [0, 1, 1, 0, 0, -2]</br>
 Output1:</br>
--  -  -  -  -</br>
--  -  -  -  -</br>
-a  -  -  -  -</br>
-b  -  -  -  -</br>
--  b  a  -  -</br>
-
+```
+-  -  -  -  -
+-  -  -  -  -
+a  -  -  -  -
+b  -  -  -  -
+-  b  a  -  -
+```
 Args2:</br>
 n = 4, m = 3</br>
 ObjA = [1, 1, 1, 2, 1, 3, 1, 4], ObjB = [1, 3, 1, 4, 1, 5]</br>
 width = 3, height = 6</br>
 commandCount = 1, TranslateCommands = [0, 1]</br>
 Output2:</br>
--  a  -</br>
--  a  -</br>
--  -  -</br>
--  -  -</br>
--  b  -</br>
--  -  -</br>
-
+```
+-  a  -
+-  a  -
+-  -  -
+-  -  -
+-  b  -
+-  -  -
+```
 ### Specifications:
 Just like in the preliminary work, there will be two spaces "  " between elements in the same row</br>
 Spaces are only between inner elements of the row (There is no space before the first element of a row or after the last element of a row)</br>

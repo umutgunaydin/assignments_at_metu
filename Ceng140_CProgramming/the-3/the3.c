@@ -30,7 +30,6 @@ Cache* createCache()
 
         fgets(line,1000,stdin);
 
-        /* get the first token */
         token = strtok(line, delimiter);
         media->name=(char*) malloc (sizeof(token));
         strcpy(media->name,token);
@@ -38,7 +37,7 @@ Cache* createCache()
         media->size= atoi(token);
         token= strtok(NULL,delimiter);
         currentSize+=media->size;
-        /* walk through other tokens */
+
         while( token != NULL ) {
             DomainFreqNode *domainFreqNode=(DomainFreqNode*) malloc(sizeof(DomainFreqNode));
             domainFreqNode->name=(char*) malloc (sizeof(token));
@@ -53,7 +52,7 @@ Cache* createCache()
                 domainFreqNode->prev= NULL;
                 domainFreqList->head=domainFreqNode;
                 domainFreqList->tail=domainFreqNode;
-            }else{/*burada sort işlemini yap!!!*/
+            }else{
                 prev=NULL;
                 curr=domainFreqList->head;
                 while(curr){
